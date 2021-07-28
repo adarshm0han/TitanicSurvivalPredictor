@@ -1,11 +1,11 @@
 # Titanic Survival Predictor
 
-##### This project was made for submission in Kaggle's "Titanic - Machine Learning from Disaster" competiotion.
+##### This project was made for submission in Kaggle's "Titanic - Machine Learning from Disaster" competition.
 
 
 ## Objective
 
-##### The goal of this model is to correctly predict if someone survived the Titanic shipwreak
+##### The goal of this model is to correctly predict if someone survived the Titanic shipwreck
 
 ## Dataset
 
@@ -14,7 +14,7 @@
 ## Solution
 ### Approach
 ##### Extensive data exploration was done to understand how numerical and categorical data was distributed and how different variables were related to each other.
-##### Feature Engineering was done to see if a person's cabin, ticket, or their social status affected their rate of survival which was followed by data preprocessing. <br/>We wanted to drop null values, and include only relevent variables. We performed categorical transforms on all data so that the training and test data have the same columns. Calculated the mean for fare and age (could also use median). Normalised the fare and scaled the data in a 0-1 standard scaler.<br/>
+##### Feature Engineering was done to see if a person's cabin, ticket, or their social status affected their rate of survival which was followed by data preprocessing. <br/>We wanted to drop null values, and include only relevant variables. We performed categorical transforms on all data so that the training and test data have the same columns. Calculated the mean for fare and age (could also use median). Normalised the fare and scaled the data in a 0-1 standard scaler.<br/>
 ##### The next step was to see how different models performed on our training set. The models used for our analysis were <br/>
 Naive Bayes - 72.2%<br/>
 Logistic Regression - 82.1%<br/>
